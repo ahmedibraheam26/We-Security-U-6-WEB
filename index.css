@@ -1,0 +1,64 @@
+/* خلفية الصفحة باللون الأبيض */
+body {
+    background-color: #ffffff; /* خلفية بيضاء */
+    color: #000000; /* لون النص أسود */
+}
+
+/* لون الخطوط داخل الأقسام والمربعات */
+.section-text {
+    color: #000000; /* لون النص أسود داخل الأقسام والمربعات */
+}
+
+/* لون الخطوط الأزرق */
+.btn-primary {
+    color: #00aaff; /* لون النص الأزرق */
+}
+
+/* خلفية الأزرار */
+.btn-primary {
+    background-color: #000000; /* خلفية سوداء للأزرار الرئيسية */
+    border-color: #000000; /* لون الحدود للأزرار الرئيسية */
+}
+
+/* تحويل اللون عند التحويم على الزر */
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ff0000; /* لون خلفية الزر عند التحويم/التركيز (أحمر) */
+    border-color: #ff0000; /* لون حدود الزر عند التحويم/التركيز (أحمر) */
+    color: #ffffff; /* لون النص عند التحويم/التركيز (أبيض) */
+}
+/* أنماط النافبار */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* تأكد من أنه أعلى من أي عنصر آخر */
+    background-color: #000000; /* خلفية سوداء */
+    color: #ffffff; /* لون النص أبيض */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s; /* تأثير الانتقال للخفاء/الظهور */
+}
+
+.navbar.hide {
+    top: -100px; /* يختفي بتحريكه خارج الشاشة */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; /* لون النص أبيض */
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; /* لون أيقونة التبديل الأبيض */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* لون حدود أيقونة التبديل الأبيض */
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ffffff; /* لون خلفية أيقونة التبديل عند التحويم/التركيز (أبيض) */
+    color: #000000; /* لون النص عند التحويم/التركيز (أسود) */
+}
